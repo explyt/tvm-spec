@@ -10891,9 +10891,9 @@
                 "fift": "[tt+1] QRSHIFT#MOD"
             },
             "bytecode": {
-                "doc_opcode": "A93Ctt",
-                "tlb": "#A93C tt:uint8",
-                "prefix": "A93C",
+                "doc_opcode": "B7A93Ctt",
+                "tlb": "#B7A93C tt:uint8",
+                "prefix": "B7A93C",
                 "operands": [
                     {
                         "name": "t",
@@ -10940,9 +10940,9 @@
                 "fift": "[tt+1] QRSHIFTR#MOD"
             },
             "bytecode": {
-                "doc_opcode": "A93Dtt",
-                "tlb": "#A93D tt:uint8",
-                "prefix": "A93D",
+                "doc_opcode": "B7A93Dtt",
+                "tlb": "#B7A93D tt:uint8",
+                "prefix": "B7A93D",
                 "operands": [
                     {
                         "name": "t",
