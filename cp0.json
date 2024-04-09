@@ -8086,7 +8086,7 @@
             "doc": {
                 "category": "arithm_div",
                 "description": "",
-                "gas": "26",
+                "gas": "34",
                 "fift": "[tt+1] LSHIFT#DIVC"
             },
             "bytecode": {
