@@ -4472,7 +4472,7 @@
             }
         },
         {
-            "mnemonic": "ADDRSHIFTMOD",
+            "mnemonic": "ADDRSHIFTMOD_VAR",
             "doc": {
                 "category": "arithm_div",
                 "description": "",
