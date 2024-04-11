@@ -7140,10 +7140,18 @@
                 "fift": "MULRSHIFT#MOD"
             },
             "bytecode": {
-                "doc_opcode": "A9BC",
-                "tlb": "#A9BC",
+                "doc_opcode": "A9BCtt",
+                "tlb": "#A9BC tt:uint8",
                 "prefix": "A9BC",
-                "operands": []
+                "operands": [
+                  {
+                    "name": "t",
+                    "loader": "uint",
+                    "loader_args": {
+                      "size": 8
+                    }
+                  }
+                ]
             },
             "value_flow": {
                 "doc_stack": "x y - q=floor(x*y/2^(tt+1)) r=xy-q*2^(tt+1)",
@@ -7181,10 +7189,18 @@
                 "fift": "MULRSHIFTR#MOD"
             },
             "bytecode": {
-                "doc_opcode": "A9BD",
-                "tlb": "#A9BD",
+                "doc_opcode": "A9BDtt",
+                "tlb": "#A9BD tt:uint8",
                 "prefix": "A9BD",
-                "operands": []
+                "operands": [
+                  {
+                    "name": "t",
+                    "loader": "uint",
+                    "loader_args": {
+                      "size": 8
+                    }
+                  }
+                ]
             },
             "value_flow": {
                 "doc_stack": "x y - q=round(x*y/2^(tt+1)) r=xy-q*2^(tt+1)",
@@ -7222,10 +7238,18 @@
                 "fift": "MULRSHIFTC#MOD"
             },
             "bytecode": {
-                "doc_opcode": "A9BE",
-                "tlb": "#A9BE",
+                "doc_opcode": "A9BEtt",
+                "tlb": "#A9BE tt:uint8",
                 "prefix": "A9BE",
-                "operands": []
+                "operands": [
+                  {
+                    "name": "t",
+                    "loader": "uint",
+                    "loader_args": {
+                      "size": 8
+                    }
+                  }
+                ]
             },
             "value_flow": {
                 "doc_stack": "x y - q=ceil(x*y/2^(tt+1)) r=xy-q*2^(tt+1)",
