@@ -3495,7 +3495,7 @@
                         "internal": true
                     },
                     {
-                        "name": "s",
+                        "name": "c",
                         "loader": "subslice",
                         "loader_args": {
                             "bits_length_var": "x",
@@ -3549,7 +3549,7 @@
                         "internal": true
                     },
                     {
-                        "name": "s",
+                        "name": "c",
                         "loader": "subslice",
                         "loader_args": {
                             "bits_length_var": "x",
