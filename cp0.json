@@ -1316,7 +1316,7 @@
                         {
                             "type": "simple",
                             "name": "x",
-                            "value_types": ["Integer"]
+                            "value_types": ["Integer", "Null"]
                         }
                     ]
                 },
@@ -28494,7 +28494,7 @@
                         {
                             "type": "simple",
                             "name": "D",
-                            "value_types": ["Slice", "Null"]
+                            "value_types": ["Cell", "Null"]
                         },
                         {
                             "type": "simple",
@@ -38358,7 +38358,7 @@
                         {
                             "type": "simple",
                             "name": "x",
-                            "value_types": ["Integer"]
+                            "value_types": ["Integer", "Slice"]
                         }
                     ]
                 }
